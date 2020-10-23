@@ -20,3 +20,4 @@ nombres de colores ($colores).
 
     $all = array_merge($animales,$colores);
     echo count($all);
+    ?>

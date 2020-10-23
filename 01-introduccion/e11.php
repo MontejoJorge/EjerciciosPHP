@@ -14,3 +14,4 @@ $b = "cadena b";
 
 $frase = cadena($a,$b);
 include "e11.view.php";
+?>

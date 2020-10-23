@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-<p>Frase = <?=$frase?></p>
+<p>Frase: <?=$frase?></p>
 </body>
 </html>

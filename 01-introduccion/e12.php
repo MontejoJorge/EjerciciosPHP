@@ -22,6 +22,4 @@ Crea algunos ejemplos con llamadas a las dos funciones. -->
         $ciudades[$posicion] = $valor;
         return $ciudades[$posicion];
     }
-
-
 ?>
