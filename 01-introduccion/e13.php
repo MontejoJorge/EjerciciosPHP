@@ -4,3 +4,19 @@ nombres de colores ($colores).
 ■ Añade un elemento al final del array $animales utilizando una función.
 ■ Añade un elemento al principio del array $colores utilizando una función.
 ■ Crea un tercer array que incluya los elementos de los dos arrays. -->
+<?php
+    $animales = array("Leon","Cebra","Chocobo","Gromp");
+
+    $colores = array("Rojo", "Amarillo", "Verde", "Negro");
+
+    echo count($animales);
+    echo count($colores);
+
+    array_push($animales,"Leopardo");
+    echo count($animales);
+
+    array_unshift($colores, "Azul");
+    echo count($animales);
+
+    $all = array_merge($animales,$colores);
+    echo count($all);
