@@ -4,3 +4,40 @@ esté entre el 1 y el 7, mostrará el mensaje “No es ningún día de la semana
 un switch para realizar el ejercicio.
 diaSemana(2) → “El día número 2 es martes.”
 diaSemana(9) → “No es ningún día de la semana” -->
+
+<?php
+$dia = 3;
+function mostrarDia($dia)
+{
+    switch ($dia) {
+        case 1:
+            return "lunes";
+            break;
+        case 2:
+            return "martes";
+            break;
+        case 3:
+            return "miercoles";
+            break;
+        case 4:
+            return "jueves";
+            break;
+        case 5:
+            return "viernes";
+            break;
+        case 6:
+            return "sabado";
+            break;
+        case 7:
+            return "domingo";
+            break;
+        default:
+            return "No es ningun dia de la semana";
+            break;
+    }
+}
+
+echo mostrarDia($dia);
+
+
+?>
