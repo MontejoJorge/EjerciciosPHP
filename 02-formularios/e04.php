@@ -8,3 +8,34 @@ sean correctos.
 También indicará si el usuario introducido no
 existe o si la contraseña introducida es
 incorrecta. -->
+<?php
+$usuarios = array(
+    "user1" => array (
+    "nombre" => "Ane",
+    "apellidos" => "López",
+    "password" => "123Abc"
+    ),
+    "user2" => array (
+    "nombre" => "Amaia",
+    "apellidos" => "Otsoa",
+    "password" => "456Xyz"
+    )
+   );
+
+function validate($usuarios){
+    $name = $_GET["name"];
+    $pass = $_GET["pass"];
+
+    if (array_key_exists($name,$usuarios)) {
+        if ($usuarios[$name]["password"]==$pass) {
+            return "$name ha sido logeado con exito";
+        } else {
+            return "contraseña incorrecta";
+        }
+    } else {
+        return "$name no encontrado";
+    }
+
+}
+
+require "e04.vew.php";

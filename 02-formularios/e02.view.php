@@ -14,8 +14,10 @@
         <option value="multiplicacion">x</option>
         <option value="division">÷</option>
     </select>
-    <input type="text" name="num1" id="num2">
+    <input type="text" name="num2" id="num2"><br>
+    <input type="submit" value="Calcular"><br>
 
     </form>
+    <p id="resultado">El resultado es <?= calculate()?></p>
 </body>
 </html>

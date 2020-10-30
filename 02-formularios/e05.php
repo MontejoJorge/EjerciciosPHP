@@ -6,3 +6,8 @@ añadido o una unidad del mismo).
 La aplicación mostrará un formulario en el que indicar la cantidad de cada producto. Al
 hacer click en “Enviar” la aplicación le llevará al usuario a otra página donde únicamente
 mostrará el valor total de la compra realizara y un enlace para volver a la página anterior. -->
+<?php
+
+require "e05.datos.php";
+
+require "e05.view.php";
