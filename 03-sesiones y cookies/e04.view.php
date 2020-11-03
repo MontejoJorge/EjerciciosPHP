@@ -6,11 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <p><?=$user?></p>
-    <form action="" method="get">
-    <input type="text" name="name" id="">
-    <input type="submit" value="Guardar">
+    <h3>Lista de asistentes</h3>
+    <ul>
+
+    </ul>
+    <form action="e04.php" method="get">
+        <input type="text" name="name">
+        <input type="submit" value="Añadir">
     </form>
-    <a href="e02.php?borrar=true">Borrar</a>
+
+    
 </body>
 </html>
