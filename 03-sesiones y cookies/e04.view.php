@@ -23,6 +23,7 @@
         <input type="hidden" name="accion" value="insertar">
         <input type="submit" value="Añadir">
     </form>
+        <a href="e04.php?accion=borrar">Borrar</a>
 
     
 </body>
