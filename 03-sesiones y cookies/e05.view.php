@@ -12,6 +12,11 @@
         <input type="password" name="password" placeholder="Contraseña">
         <input type="submit" value="LogIn">
     </form>
-    <p><?=$error?></p>
+    <?php
+// Si hay algún mensaje de error lo mostramos:
+if(isset($error)) {
+    ?>
+    <p style='color:red;'><?= $error ?></p>
+<?php } ?>
 </body>
 </html>
