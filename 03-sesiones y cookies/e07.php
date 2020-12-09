@@ -41,12 +41,17 @@ function calcularPrecio($productosComprados, $productos){
 
 function esFavorito($id){
     $favoritos = explode(",",$_COOKIE["favoritos"]);
-    echo $favoritos;
-
-    if (array_key_exists($id,$favoritos)) {
-        return "red";
-    } else {
+    $encontrado = false;
+    foreach($favoritos as $a){
+        if ($a==$id){
+            $encontrado = true;
+            break;
+        }
+    }
+    if ($encontrado == false){
         return "black";
+    } else {
+        return "red";
     }
     
 

@@ -46,8 +46,7 @@
         foreach ($productos as $id => $producto){
             ?>
             <tr>
-                <td><?="style=color:".esFavorito($id).";"?></td>
-                <td <?="style='color:'".esFavorito($id).";"?>><?= $producto["nombre"] ?></td>
+                <td style="color:<?=esFavorito($id)?>"><?= $producto["nombre"] ?></td>
                 <td><?= $producto["descripción"] ?></td>
                 <td><?= $producto["precio"] ?></td>
                 <td><a href="e07.php?accion=insertar&idProducto=<?=$id?>">Comprar</a></td>

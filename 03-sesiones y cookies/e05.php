@@ -38,6 +38,7 @@ if (!isset($_SESSION["login"]) || isset($_GET["action"])){
 if (isset($_GET["username"]) && isset($_GET["password"])) {
     $_SESSION["login"] = validate($_GET["username"],$_GET["password"],$datos);
 }
+
 if ($_SESSION["login"]==0){
     $tupadre = $_SESSION["login"];
     $apellido = $datos[$_SESSION["user"]]["apellido"];
