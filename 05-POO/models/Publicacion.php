@@ -7,7 +7,6 @@ class Publicacion {
 
     public function __construct(){}
 
-
     /**
      * Get the value of texto
      */ 

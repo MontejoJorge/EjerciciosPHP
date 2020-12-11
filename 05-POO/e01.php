@@ -1,6 +1,6 @@
 <?php
 
-require "Publicacion.php";
+require "./Models/Publicacion.php";
 
 $publicacion = new Publicacion();
 
