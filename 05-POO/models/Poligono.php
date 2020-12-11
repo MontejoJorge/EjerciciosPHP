@@ -54,4 +54,6 @@ abstract class Poligono
         $this->anchura = $anchura;
     }
 
+    public abstract function calcularArea();
+
 }
