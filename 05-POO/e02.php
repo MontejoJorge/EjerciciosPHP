@@ -1,10 +1,10 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
 
-include "models/Publicacion.php";
+require "./models/Publicacion.php";
 
-use poo\models\Pulicacion;
-
-require "Publicacion.php";
+use Ejercicio2\Models\Publicacion;
 
 $publicacion = new Publicacion();
 

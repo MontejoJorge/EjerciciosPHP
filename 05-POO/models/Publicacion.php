@@ -1,6 +1,6 @@
 <?php
 
-namespace poo\models;
+namespace Ejercicio2\Models;
 
 class Publicacion {
     private $autores,$año,$editorial,$titulo,$texto;

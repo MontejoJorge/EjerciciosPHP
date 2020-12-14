@@ -1,6 +1,8 @@
 <?php
 
-require "./Models/Publicacion.php";
+use Ejercicio2\Models\Publicacion;
+
+require "./models/Publicacion.php";
 
 $publicacion = new Publicacion();
 
