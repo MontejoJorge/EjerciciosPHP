@@ -1,0 +1,13 @@
+{
+    "name": "jorge/e01",
+    "type": "project",
+    "require": {
+        "phpunit/php-timer": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Jorge Montejo",
+            "email": "56157795+MontejoJorge@users.noreply.github.com"
+        }
+    ]
+}
