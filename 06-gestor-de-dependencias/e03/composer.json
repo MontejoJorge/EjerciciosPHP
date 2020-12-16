@@ -1,0 +1,13 @@
+{
+    "name": "2gdaw11/e03",
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "monolog/monolog": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "Jorge Montejo",
+            "email": "56157795+MontejoJorge@users.noreply.github.com"
+        }
+    ]
+}
