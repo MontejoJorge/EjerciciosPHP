@@ -19,19 +19,19 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '7c3386284175c1c0f9d55b67111d8283ca363310',
-    'name' => '2gdaw11/e04',
+    'reference' => 'b27baf69dc98f65b62574449c79faa2e708d5543',
+    'name' => '2gdaw11/e03',
   ),
   'versions' => 
   array (
-    '2gdaw11/e04' => 
+    '2gdaw11/e03' => 
     array (
       'pretty_version' => 'dev-master',
       'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => '7c3386284175c1c0f9d55b67111d8283ca363310',
+      'reference' => 'b27baf69dc98f65b62574449c79faa2e708d5543',
     ),
     'doctrine/inflector' => 
     array (

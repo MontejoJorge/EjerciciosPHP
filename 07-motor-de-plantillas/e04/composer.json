@@ -1,7 +1,12 @@
 {
-    "name": "2gdaw11/e04",
+    "name": "2gdaw11/e03",
     "require": {
         "duncan3dc/blade": "^4.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/"
+        }
     },
     "authors": [
         {
